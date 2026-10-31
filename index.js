@@ -14,7 +14,7 @@ const FILE_PATH = process.env.FILE_PATH || '.npm';
 // 强制使用指定的 UUID 或从环境变量读取
 const UUID = process.env.UUID || '6e8d0787-a32b-4836-8561-ede8dee8d441';
 const REALITY_PORT = 8080; // 固定为 8080 端口
-const SERVER_NAME = "www.iij.ad.jp"; // Reality 伪装域名
+const SERVER_NAME = "www.nvidia.com"; // Reality 伪装域名
 
 // 严格的环境变量验证
 if (!UUID) {
