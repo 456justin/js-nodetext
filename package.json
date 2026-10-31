@@ -1,7 +1,7 @@
 {
-  "name": "node-reality-proxy",
+  "name": "node-reality-proxy-8080",
   "version": "1.0.0",
-  "description": "Node.js script to deploy sing-box with Reality-TLS",
+  "description": "Node.js script to deploy sing-box with Reality-TLS on port 8080",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
