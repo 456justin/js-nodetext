@@ -1,23 +1,14 @@
 {
-  "name": "nodejs-sb",
+  "name": "node-reality-proxy",
   "version": "1.0.0",
-  "description": "nodejs",
+  "description": "Node.js script to deploy sing-box with Reality-TLS",
   "main": "index.js",
-  "author": "eooce",
-  "repository": "",
-  "license": "MIT",
-  "private": false,
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "axios": "latest",
-    "dotenv": "latest",
-    "express": "latest"
-  },
-  "engines": {
-    "node": ">=14"
+    "axios": "^1.6.0",
+    "dotenv": "^16.4.0",
+    "express": "^4.19.0"
   }
 }
-  
-
